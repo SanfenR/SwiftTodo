@@ -22,13 +22,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
-
         todoList = [
             TodoModel(id: "1", image: "child-selected", title: "1. 去游乐城", date: dateFormat("2017-09-05")!),
             TodoModel(id: "2", image: "phone-selected", title: "1. 打电话", date: dateFormat("2017-09-04")!),
             TodoModel(id: "3", image: "shopping-cart-selected", title: "1. 去购物", date: dateFormat("2017-09-03")!),
             TodoModel(id: "4", image: "travel-selected", title: "4. 坐火车", date: dateFormat("2017-09-03")!)
+            
         ]
 
     }

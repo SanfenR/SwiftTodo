@@ -264,6 +264,11 @@
 			isa = PBXProject;
 			attributes = {
 				ORGANIZATIONNAME = sanfen;
+				TargetAttributes = {
+					B3D15AF89F07C427A4B57158 = {
+						DevelopmentTeam = YD8ZBYUCC4;
+					};
+				};
 			};
 			buildConfigurationList = B3D15A6B6DA40F52A843742D /* Build configuration list for PBXProject "Todo" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -582,6 +587,9 @@
 			baseConfigurationReference = 7D8606F8F3F2F08742AA0943 /* Pods-Todo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos11.0]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = YD8ZBYUCC4;
 				INFOPLIST_FILE = Todo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.sanfen.ios.Todo;
@@ -673,6 +681,8 @@
 			baseConfigurationReference = 14F61A527E692F59A352296C /* Pods-Todo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = YD8ZBYUCC4;
 				INFOPLIST_FILE = Todo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.sanfen.ios.Todo;
